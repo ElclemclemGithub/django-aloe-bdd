@@ -14,4 +14,4 @@ jobs:
           python -m pip install --upgrade pip 
       - name: run isort
         run: |    
-          python3 -e isort .
+          python3 -m isort .
